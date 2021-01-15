@@ -1,0 +1,103 @@
+.inic{
+  display:block;
+  color: green;
+  height:100vh;
+}
+.parao{
+  position:fixed;
+  width:99vw; 
+}
+ a {
+  text-decoration:none;
+}
+ li{
+  display:block;
+   width:24vw;
+}
+li:hover{
+  background-color:#f0f;
+}
+article{
+  height: 100vh;
+}
+article div {
+  top:15vh; 
+  /*vertical-align:center;*/
+}
+p, form, button {
+  position:relative;
+  top:17vh;
+  overflow:hidden;
+}
+.cpy{
+  
+  color:#00f;
+  position:fixed;
+  bottom: 0;
+  left:70%;
+  font-size:small;
+}
+ ul{
+  position: fixed;
+  align-items: center;
+  height:45px;
+  top: 5vh;
+  width: 99vw;
+  display:inline-flex;
+  background-color: #df0;
+}
+.picada{
+  display:grid;
+  transform:translateY(50%);
+  font-size:3em;
+}
+button{
+  width: 32vw;
+}
+.but{
+  width:27vw;
+}
+.inp{
+  width:16vw;  
+}
+
+label{
+  font-size: 1.3em;
+  color: black;
+}
+.izq{
+  position:relative;
+  display:grid;
+  grid-template-rows:3;
+  grid-template-columns:2;
+  width:28vw;
+  height:45vh;
+  left:3vw;
+  background-color:yellow;
+  opacity:0.8;
+  transform:translateY(27%);
+}
+.cen{
+  position:relative;
+  display:grid;
+  grid-template-rows:1;
+  grid-template-columns:2;
+  width:28vw;
+  height:45vh;
+  left:35.5vw;
+  background-color:yellow;
+  opacity:0.8;
+  transform:translateY(27%);
+}
+.der{
+  position:relative;
+  display:grid;
+  grid-template-rows:1;
+  grid-template-columns:2;
+  width:28vw;
+  height:45vh;
+  left:67.5vw;
+  background-color:yellow;
+  opacity:0.8;
+  transform:translateY(27%);
+}
